@@ -1,0 +1,1237 @@
+2017-09-22 18:48:15,033 INFO  [main] com.bjuvefors.tools.impl.SpringBootMain : Starting SpringBootMain on Andreass-MBP.lan with PID 5820 (/Users/andreasbjuvefors/IdeaProjects/springbootTest/target/classes started by andreasbjuvefors in /Users/andreasbjuvefors/IdeaProjects/springbootTest)
+2017-09-22 18:48:15,037 DEBUG [main] com.bjuvefors.tools.impl.SpringBootMain : Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-09-22 18:48:15,037 INFO  [main] com.bjuvefors.tools.impl.SpringBootMain : No active profile set, falling back to default profiles: default
+2017-09-22 18:48:15,317 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a: startup date [Fri Sep 22 18:48:15 CEST 2017]; root of context hierarchy
+2017-09-22 18:48:15,938 DEBUG [background-preinit] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:15,942 DEBUG [background-preinit] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:16,955 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:16,955 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:17,009 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:17,009 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:17,020 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:48:17,022 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:48:17,027 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:48:17,031 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:48:17,033 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:48:17,035 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:48:17,037 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:48:17,038 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:48:17,483 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:17,484 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:17,484 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:17,484 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:48:17,485 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:48:17,744 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3000 (http)
+2017-09-22 18:48:17,774 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-09-22 18:48:17,776 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-22 18:48:17,950 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-09-22 18:48:18,197 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-22 18:48:18,201 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'metricsFilter' to: [/*]
+2017-09-22 18:48:18,202 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-22 18:48:18,202 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-22 18:48:18,202 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-22 18:48:18,202 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-22 18:48:18,202 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-09-22 18:48:18,203 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-09-22 18:48:19,183 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-22 18:48:19,202 DEBUG [main] org.hibernate.jpa.internal.util.LogHelper : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.apache.tomcat.jdbc.pool.DataSource@499683c4{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://192.168.1.101:3306/systemet; username=testuser; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/andreasbjuvefors/IdeaProjects/springbootTest/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.bjuvefors.tools.impl.model.Item]
+	Mapping files names []
+	Properties []
+2017-09-22 18:48:19,230 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-09-22 18:48:19,237 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2017-09-22 18:48:19,245 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2017-09-22 18:48:19,245 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2017-09-22 18:48:19,426 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-22 18:48:19,433 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2017-09-22 18:48:19,436 INFO  [main] org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist
+2017-09-22 18:48:19,460 DEBUG [main] org.hibernate.service.spi.ServiceBinding : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2017-09-22 18:48:19,504 DEBUG [main] org.hibernate.cache.internal.RegionFactoryInitiator : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2017-09-22 18:48:19,525 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-22 18:48:19,710 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@68f0f72c
+2017-09-22 18:48:19,710 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@68f0f72c
+2017-09-22 18:48:19,710 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@68f0f72c
+2017-09-22 18:48:19,711 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@12d5c30e
+2017-09-22 18:48:19,712 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration true_false -> org.hibernate.type.TrueFalseType@3aa41da1
+2017-09-22 18:48:19,713 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration yes_no -> org.hibernate.type.YesNoType@272ce069
+2017-09-22 18:48:19,716 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@100c8b75
+2017-09-22 18:48:19,717 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@100c8b75
+2017-09-22 18:48:19,718 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@100c8b75
+2017-09-22 18:48:19,721 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration character -> org.hibernate.type.CharacterType@54e02f6a
+2017-09-22 18:48:19,721 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char -> org.hibernate.type.CharacterType@54e02f6a
+2017-09-22 18:48:19,721 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@54e02f6a
+2017-09-22 18:48:19,725 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@2bfb6b49
+2017-09-22 18:48:19,725 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@2bfb6b49
+2017-09-22 18:48:19,725 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@2bfb6b49
+2017-09-22 18:48:19,727 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration integer -> org.hibernate.type.IntegerType@363c4251
+2017-09-22 18:48:19,727 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration int -> org.hibernate.type.IntegerType@363c4251
+2017-09-22 18:48:19,727 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@363c4251
+2017-09-22 18:48:19,729 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@6812fa3a
+2017-09-22 18:48:19,729 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@6812fa3a
+2017-09-22 18:48:19,729 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Long -> org.hibernate.type.LongType@6812fa3a
+2017-09-22 18:48:19,731 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@72fd8a3c
+2017-09-22 18:48:19,731 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@72fd8a3c
+2017-09-22 18:48:19,731 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@72fd8a3c
+2017-09-22 18:48:19,736 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@79a04e5f
+2017-09-22 18:48:19,737 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@79a04e5f
+2017-09-22 18:48:19,738 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@79a04e5f
+2017-09-22 18:48:19,743 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@3dd31157
+2017-09-22 18:48:19,744 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@3dd31157
+2017-09-22 18:48:19,745 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7dbe2ebf
+2017-09-22 18:48:19,745 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7dbe2ebf
+2017-09-22 18:48:19,746 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration string -> org.hibernate.type.StringType@2d3ef181
+2017-09-22 18:48:19,747 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.String -> org.hibernate.type.StringType@2d3ef181
+2017-09-22 18:48:19,750 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@74e6094b
+2017-09-22 18:48:19,752 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@1e9469b8
+2017-09-22 18:48:19,757 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration url -> org.hibernate.type.UrlType@79e66b2f
+2017-09-22 18:48:19,757 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.net.URL -> org.hibernate.type.UrlType@79e66b2f
+2017-09-22 18:48:19,760 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration date -> org.hibernate.type.DateType@b1534d3
+2017-09-22 18:48:19,761 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Date -> org.hibernate.type.DateType@b1534d3
+2017-09-22 18:48:19,764 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration time -> org.hibernate.type.TimeType@7b122839
+2017-09-22 18:48:19,765 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@7b122839
+2017-09-22 18:48:19,768 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timestamp -> org.hibernate.type.TimestampType@445bb139
+2017-09-22 18:48:19,769 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@445bb139
+2017-09-22 18:48:19,769 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@445bb139
+2017-09-22 18:48:19,771 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@6cd3ad8a
+2017-09-22 18:48:19,772 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar -> org.hibernate.type.CalendarType@1b1c538d
+2017-09-22 18:48:19,772 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@1b1c538d
+2017-09-22 18:48:19,772 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@1b1c538d
+2017-09-22 18:48:19,773 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@15c4af7a
+2017-09-22 18:48:19,774 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration locale -> org.hibernate.type.LocaleType@2da3b078
+2017-09-22 18:48:19,774 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2da3b078
+2017-09-22 18:48:19,775 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration currency -> org.hibernate.type.CurrencyType@ae202c6
+2017-09-22 18:48:19,775 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@ae202c6
+2017-09-22 18:48:19,776 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timezone -> org.hibernate.type.TimeZoneType@7b4a0aef
+2017-09-22 18:48:19,776 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@7b4a0aef
+2017-09-22 18:48:19,777 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration class -> org.hibernate.type.ClassType@31dfc6f5
+2017-09-22 18:48:19,778 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@31dfc6f5
+2017-09-22 18:48:19,779 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@aaa0f76
+2017-09-22 18:48:19,779 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@aaa0f76
+2017-09-22 18:48:19,780 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4acc5dff
+2017-09-22 18:48:19,781 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration binary -> org.hibernate.type.BinaryType@57f9b467
+2017-09-22 18:48:19,781 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte[] -> org.hibernate.type.BinaryType@57f9b467
+2017-09-22 18:48:19,781 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [B -> org.hibernate.type.BinaryType@57f9b467
+2017-09-22 18:48:19,782 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@f6de586
+2017-09-22 18:48:19,782 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@f6de586
+2017-09-22 18:48:19,782 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@f6de586
+2017-09-22 18:48:19,783 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration row_version -> org.hibernate.type.RowVersionType@2264ea32
+2017-09-22 18:48:19,784 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration image -> org.hibernate.type.ImageType@94e51e8
+2017-09-22 18:48:19,785 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration characters -> org.hibernate.type.CharArrayType@4af45442
+2017-09-22 18:48:19,785 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char[] -> org.hibernate.type.CharArrayType@4af45442
+2017-09-22 18:48:19,785 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [C -> org.hibernate.type.CharArrayType@4af45442
+2017-09-22 18:48:19,786 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@47be0f9b
+2017-09-22 18:48:19,786 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@47be0f9b
+2017-09-22 18:48:19,786 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@47be0f9b
+2017-09-22 18:48:19,787 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration text -> org.hibernate.type.TextType@e4e1ef5
+2017-09-22 18:48:19,787 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ntext -> org.hibernate.type.NTextType@6fa0450e
+2017-09-22 18:48:19,790 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration blob -> org.hibernate.type.BlobType@6f1a16fe
+2017-09-22 18:48:19,790 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@6f1a16fe
+2017-09-22 18:48:19,791 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@4993febc
+2017-09-22 18:48:19,794 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration clob -> org.hibernate.type.ClobType@44032fde
+2017-09-22 18:48:19,794 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@44032fde
+2017-09-22 18:48:19,796 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nclob -> org.hibernate.type.NClobType@5d8ab698
+2017-09-22 18:48:19,796 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@5d8ab698
+2017-09-22 18:48:19,797 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@429f7919
+2017-09-22 18:48:19,797 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@797c3c3b
+2017-09-22 18:48:19,798 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration serializable -> org.hibernate.type.SerializableType@529c2a9a
+2017-09-22 18:48:19,800 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration object -> org.hibernate.type.ObjectType@60b34931
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@60b34931
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@640ab13c
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@1e0a864d
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@440e3ce6
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@3e67f5f2
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@fd53053
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@4527f70a
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@707b1a44
+2017-09-22 18:48:19,801 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@7132a9dc
+2017-09-22 18:48:19,810 DEBUG [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator : Database ->
+       name : MySQL
+    version : 5.5.53-0+deb7u1
+      major : 5
+      minor : 5
+2017-09-22 18:48:19,811 DEBUG [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator : Driver ->
+       name : MySQL Connector Java
+    version : mysql-connector-java-5.1.43 ( Revision: 1d14b699eff3e6112aaedb1cbe5a151ab81f98f1 )
+      major : 5
+      minor : 1
+2017-09-22 18:48:19,811 DEBUG [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator : JDBC version : 4.0
+2017-09-22 18:48:19,825 INFO  [main] org.hibernate.dialect.Dialect : HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2017-09-22 18:48:19,855 DEBUG [main] org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder : JDBC driver metadata reported database stores quoted identifiers in more than one case
+2017-09-22 18:48:19,856 DEBUG [main] org.hibernate.engine.jdbc.env.spi.IdentifierHelperBuilder : IdentifierCaseStrategy for both quoted and unquoted identifiers was set to the same strategy [MIXED]; that will likely lead to problems in schema update and validation if using quoted identifiers
+2017-09-22 18:48:19,882 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+2017-09-22 18:48:19,883 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+2017-09-22 18:48:19,883 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+2017-09-22 18:48:19,883 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+2017-09-22 18:48:19,884 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+2017-09-22 18:48:19,884 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+2017-09-22 18:48:19,885 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+2017-09-22 18:48:19,886 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-09-22 18:48:19,887 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+2017-09-22 18:48:19,887 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+2017-09-22 18:48:19,887 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+2017-09-22 18:48:19,888 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+2017-09-22 18:48:19,888 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-09-22 18:48:19,888 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+2017-09-22 18:48:19,889 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory : Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+2017-09-22 18:48:19,889 DEBUG [main] org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory :     - overriding [org.hibernate.id.enhanced.SequenceStyleGenerator]
+2017-09-22 18:48:19,913 DEBUG [main] org.hibernate.boot.model.relational.Namespace : Created database namespace [logicalName=Name{catalog=null, schema=null}, physicalName=Name{catalog=null, schema=null}]
+2017-09-22 18:48:19,940 DEBUG [main] org.hibernate.cfg.AnnotationBinder : Binding entity from annotated class: com.bjuvefors.tools.impl.model.Item
+2017-09-22 18:48:19,978 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+2017-09-22 18:48:19,986 DEBUG [main] org.hibernate.cfg.annotations.EntityBinder : Import with entity name Item
+2017-09-22 18:48:19,993 DEBUG [main] org.hibernate.cfg.annotations.EntityBinder : Bind entity com.bjuvefors.tools.impl.model.Item on table item
+2017-09-22 18:48:20,031 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=id, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,038 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property id with lazy=false
+2017-09-22 18:48:20,040 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:id]
+2017-09-22 18:48:20,042 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for id
+2017-09-22 18:48:20,045 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property id
+2017-09-22 18:48:20,050 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=alcohol, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,050 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property alcohol with lazy=false
+2017-09-22 18:48:20,050 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:alcohol]
+2017-09-22 18:48:20,050 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for alcohol
+2017-09-22 18:48:20,051 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property alcohol
+2017-09-22 18:48:20,051 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=country, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,051 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property country with lazy=false
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:country]
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for country
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property country
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=date, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property date with lazy=false
+2017-09-22 18:48:20,052 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:date]
+2017-09-22 18:48:20,053 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for date
+2017-09-22 18:48:20,053 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property date
+2017-09-22 18:48:20,054 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=name, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,055 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property name with lazy=false
+2017-09-22 18:48:20,055 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:name]
+2017-09-22 18:48:20,056 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for name
+2017-09-22 18:48:20,056 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property name
+2017-09-22 18:48:20,057 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=number, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,058 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property number with lazy=false
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:number]
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for number
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property number
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=object, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property object with lazy=false
+2017-09-22 18:48:20,059 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:object]
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for object
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property object
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=origin, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property origin with lazy=false
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:origin]
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for origin
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property origin
+2017-09-22 18:48:20,060 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=price, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property price with lazy=false
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:price]
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for price
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property price
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=producer, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property producer with lazy=false
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:producer]
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for producer
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property producer
+2017-09-22 18:48:20,061 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=reduction, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property reduction with lazy=false
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:reduction]
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for reduction
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property reduction
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=sub_type, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property subType with lazy=false
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:subType]
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for subType
+2017-09-22 18:48:20,062 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property subType
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=type, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property type with lazy=false
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:type]
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for type
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property type
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.Ejb3Column : Binding column: Ejb3Column{table=org.hibernate.mapping.Table(item), mappingColumn=volume, insertable=true, updatable=true, unique=false}
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : MetadataSourceProcessor property volume with lazy=false
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.AbstractPropertyHolder : Attempting to locate auto-apply AttributeConverter for property [com.bjuvefors.tools.impl.model.Item:volume]
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : building SimpleValue for volume
+2017-09-22 18:48:20,063 DEBUG [main] org.hibernate.cfg.annotations.PropertyBinder : Building property volume
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for id
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for alcohol
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for country
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for date
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for name
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for number
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for object
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for origin
+2017-09-22 18:48:20,065 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for price
+2017-09-22 18:48:20,066 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for producer
+2017-09-22 18:48:20,066 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for reduction
+2017-09-22 18:48:20,066 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for subType
+2017-09-22 18:48:20,066 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for type
+2017-09-22 18:48:20,066 DEBUG [main] org.hibernate.cfg.annotations.SimpleValueBinder : Starting fillSimpleValue for volume
+2017-09-22 18:48:20,067 DEBUG [main] org.hibernate.mapping.PrimaryKey : Forcing column [id] to be non-null as it is part of the primary key for table [item]
+2017-09-22 18:48:20,114 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Building session factory
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : SessionFactory name : null
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Automatic flush during beforeCompletion(): disabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Automatic session close at end of transaction: disabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Statistics: disabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Deleted entity synthetic identifier rollback: disabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Default entity-mode: pojo
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Allow initialization of lazy state outside session : disabled
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Using BatchFetchStyle : LEGACY
+2017-09-22 18:48:20,115 DEBUG [main] org.hibernate.cfg.Settings : Default batch fetch size: -1
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Maximum outer join fetch depth: 2
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Default null ordering: NONE
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Order SQL updates by primary key: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Order SQL inserts for batching: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : multi-tenancy strategy : NONE
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JTA Track by Thread: enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Query language substitutions: {}
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JPA query language strict compliance: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Named query checking : enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache: enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Second-level query cache: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Second-level query cache factory: org.hibernate.cache.internal.StandardQueryCacheFactory@6d091cad
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache region prefix: null
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Optimize second-level cache for minimal puts: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Structured second-level cache entries: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Second-level cache direct-reference entries: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Automatic eviction of collection cache: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JDBC batch size: 15
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JDBC batch updates for versioned data: enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Scrollable result sets: enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Wrap result sets: disabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JDBC3 getGeneratedKeys(): enabled
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : JDBC result set fetch size: null
+2017-09-22 18:48:20,116 DEBUG [main] org.hibernate.cfg.Settings : Connection release mode: ON_CLOSE
+2017-09-22 18:48:20,117 DEBUG [main] org.hibernate.cfg.Settings : Generate SQL with comments: disabled
+2017-09-22 18:48:20,178 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Returning a Reference to the SessionFactory
+2017-09-22 18:48:20,180 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Session factory constructed with filter configurations : {}
+2017-09-22 18:48:20,183 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Instantiating session factory with properties: {java.vendor=Oracle Corporation, sun.java.launcher=SUN_STANDARD, catalina.base=/private/var/folders/1_/fyk9kvt95qv9vvs_dfjzhd1c0000gn/T/tomcat.3660915283050747346.3000, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, catalina.useNaming=false, hibernate.implicit_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringImplicitNamingStrategy, os.name=Mac OS X, sun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/classes, user.country.format=SE, java.vm.specification.vendor=Oracle Corporation, java.runtime.version=1.8.0_144-b01, user.name=andreasbjuvefors, javax.persistence.validation.mode=AUTO, FILE_LOG_PATTERN=%d %-5level [%thread] %logger : %msg%n, user.language=en, sun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib, PID=5820, java.version=1.8.0_144, user.timezone=Europe/Stockholm, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=UTF-8, file.encoding.pkg=sun.io, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=52.0, user.country=US, LOG_FILE=logs/application-debug.log, java.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre, java.vm.info=mixed mode, os.version=10.12.6, hibernate.boot.CfgXmlAccessService.key=org.hibernate.boot.cfgxml.spi.LoadedConfig@26ca61bf, hibernate.connection.datasource=org.apache.tomcat.jdbc.pool.DataSource@499683c4{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://192.168.1.101:3306/systemet; username=testuser; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }, path.separator=:, java.vm.version=25.144-b01, org.jboss.logging.provider=slf4j, hibernate.id.new_generator_mappings=false, java.awt.printerjob=sun.lwawt.macosx.CPrinterJob, sun.io.unicode.encoding=UnicodeBig, awt.toolkit=sun.lwawt.macosx.LWCToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/andreasbjuvefors, java.specification.vendor=Oracle Corporation, hibernate.transaction.coordinator_class=class org.hibernate.resource.transaction.backend.jdbc.internal.JdbcResourceLocalTransactionCoordinatorBuilderImpl, hibernate.hbm2ddl.auto=update, java.library.path=/Users/andreasbjuvefors/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:., java.vendor.url=http://java.oracle.com/, spring.beaninfo.ignore=true, java.vm.vendor=Oracle Corporation, gopherProxySet=false, hibernate.dialect=org.hibernate.dialect.MySQL5Dialect, hibernate.ejb.persistenceUnitName=default, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=com.bjuvefors.tools.impl.SpringBootMain, java.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/deploy.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/cldrdata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/dnsns.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jaccess.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/jfxrt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/localedata.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/nashorn.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunec.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunjce_provider.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/sunpkcs11.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext/zipfs.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/javaws.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jfxswt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/management-agent.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/plugin.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/ant-javafx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/dt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/javafx-mx.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/jconsole.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/packager.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/sa-jdi.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/lib/tools.jar:/Users/andreasbjuvefors/IdeaProjects/springbootTest/target/classes:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-web/1.5.6.RELEASE/spring-boot-starter-web-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter/1.5.6.RELEASE/spring-boot-starter-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot/1.5.6.RELEASE/spring-boot-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/1.5.6.RELEASE/spring-boot-autoconfigure-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-logging/1.5.6.RELEASE/spring-boot-starter-logging-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/ch/qos/logback/logback-classic/1.1.11/logback-classic-1.1.11.jar:/Users/andreasbjuvefors/.m2/repository/ch/qos/logback/logback-core/1.1.11/logback-core-1.1.11.jar:/Users/andreasbjuvefors/.m2/repository/org/slf4j/jul-to-slf4j/1.7.25/jul-to-slf4j-1.7.25.jar:/Users/andreasbjuvefors/.m2/repository/org/slf4j/log4j-over-slf4j/1.7.25/log4j-over-slf4j-1.7.25.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-core/4.3.10.RELEASE/spring-core-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/yaml/snakeyaml/1.17/snakeyaml-1.17.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/1.5.6.RELEASE/spring-boot-starter-tomcat-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/8.5.16/tomcat-embed-core-8.5.16.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/8.5.16/tomcat-embed-el-8.5.16.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/8.5.16/tomcat-embed-websocket-8.5.16.jar:/Users/andreasbjuvefors/.m2/repository/org/hibernate/hibernate-validator/5.3.5.Final/hibernate-validator-5.3.5.Final.jar:/Users/andreasbjuvefors/.m2/repository/javax/validation/validation-api/1.1.0.Final/validation-api-1.1.0.Final.jar:/Users/andreasbjuvefors/.m2/repository/org/jboss/logging/jboss-logging/3.3.1.Final/jboss-logging-3.3.1.Final.jar:/Users/andreasbjuvefors/.m2/repository/com/fasterxml/classmate/1.3.3/classmate-1.3.3.jar:/Users/andreasbjuvefors/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.8.9/jackson-databind-2.8.9.jar:/Users/andreasbjuvefors/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.8.0/jackson-annotations-2.8.0.jar:/Users/andreasbjuvefors/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.8.9/jackson-core-2.8.9.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-web/4.3.10.RELEASE/spring-web-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-aop/4.3.10.RELEASE/spring-aop-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-beans/4.3.10.RELEASE/spring-beans-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-context/4.3.10.RELEASE/spring-context-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-expression/4.3.10.RELEASE/spring-expression-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/1.5.6.RELEASE/spring-boot-starter-data-jpa-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-aop/1.5.6.RELEASE/spring-boot-starter-aop-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/aspectj/aspectjweaver/1.8.10/aspectjweaver-1.8.10.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/1.5.6.RELEASE/spring-boot-starter-jdbc-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/tomcat/tomcat-jdbc/8.5.16/tomcat-jdbc-8.5.16.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/tomcat/tomcat-juli/8.5.16/tomcat-juli-8.5.16.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-jdbc/4.3.10.RELEASE/spring-jdbc-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/hibernate/hibernate-core/5.0.12.Final/hibernate-core-5.0.12.Final.jar:/Users/andreasbjuvefors/.m2/repository/org/hibernate/javax/persistence/hibernate-jpa-2.1-api/1.0.0.Final/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/andreasbjuvefors/.m2/repository/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.jar:/Users/andreasbjuvefors/.m2/repository/antlr/antlr/2.7.7/antlr-2.7.7.jar:/Users/andreasbjuvefors/.m2/repository/org/jboss/jandex/2.0.0.Final/jandex-2.0.0.Final.jar:/Users/andreasbjuvefors/.m2/repository/dom4j/dom4j/1.6.1/dom4j-1.6.1.jar:/Users/andreasbjuvefors/.m2/repository/org/hibernate/common/hibernate-commons-annotations/5.0.1.Final/hibernate-commons-annotations-5.0.1.Final.jar:/Users/andreasbjuvefors/.m2/repository/org/hibernate/hibernate-entitymanager/5.0.12.Final/hibernate-entitymanager-5.0.12.Final.jar:/Users/andreasbjuvefors/.m2/repository/javax/transaction/javax.transaction-api/1.2/javax.transaction-api-1.2.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/data/spring-data-jpa/1.11.6.RELEASE/spring-data-jpa-1.11.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/data/spring-data-commons/1.13.6.RELEASE/spring-data-commons-1.13.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-orm/4.3.10.RELEASE/spring-orm-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-tx/4.3.10.RELEASE/spring-tx-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar:/Users/andreasbjuvefors/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.25/jcl-over-slf4j-1.7.25.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/spring-aspects/4.3.10.RELEASE/spring-aspects-4.3.10.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-starter-actuator/1.5.6.RELEASE/spring-boot-starter-actuator-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/org/springframework/boot/spring-boot-actuator/1.5.6.RELEASE/spring-boot-actuator-1.5.6.RELEASE.jar:/Users/andreasbjuvefors/.m2/repository/mysql/mysql-connector-java/5.1.43/mysql-connector-java-5.1.43.jar:/Users/andreasbjuvefors/.m2/repository/org/apache/derby/derby/10.13.1.1/derby-10.13.1.1.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, java.vm.specification.name=Java Virtual Machine Specification, CONSOLE_LOG_PATTERN=%d %-5level %logger : %msg%n, java.vm.specification.version=1.8, catalina.home=/private/var/folders/1_/fyk9kvt95qv9vvs_dfjzhd1c0000gn/T/tomcat.3660915283050747346.3000, sun.cpu.endian=little, sun.os.patch.level=unknown, java.awt.headless=true, java.io.tmpdir=/var/folders/1_/fyk9kvt95qv9vvs_dfjzhd1c0000gn/T/, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, javax.persistence.sharedCache.mode=UNSPECIFIED, os.arch=x86_64, java.awt.graphicsenv=sun.awt.CGraphicsEnvironment, hibernate.physical_naming_strategy=org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy, java.ext.dirs=/Users/andreasbjuvefors/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_144.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, user.dir=/Users/andreasbjuvefors/IdeaProjects/springbootTest, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, hibernate.transaction.jta.platform=org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform@73a0f2b, file.encoding=UTF-8, java.specification.version=1.8, hibernate.show_sql=true}
+2017-09-22 18:48:20,205 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:20,206 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:20,206 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:48:20,206 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:48:20,206 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:48:20,206 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:48:20,212 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.bjuvefors.tools.impl.model.Item] is safe
+2017-09-22 18:48:20,213 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bjuvefors.tools.impl.model.Item
+2017-09-22 18:48:20,222 DEBUG [main] org.hibernate.secure.spi.JaccIntegrator : Skipping JACC integration as it was not enabled
+2017-09-22 18:48:20,229 DEBUG [main] org.hibernate.engine.spi.CascadeStyles : External cascade style regsitration [persist : STYLE_PERSIST_SKIPLAZY] overrode base registration [STYLE_PERSIST]
+2017-09-22 18:48:20,361 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.bjuvefors.tools.impl.model.Item] is safe
+2017-09-22 18:48:20,361 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bjuvefors.tools.impl.model.Item
+2017-09-22 18:48:20,385 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : Not known whether passed class name [com.bjuvefors.tools.impl.model.Item] is safe
+2017-09-22 18:48:20,386 DEBUG [main] org.hibernate.boot.internal.ClassLoaderAccessImpl : No temp ClassLoader provided; using live ClassLoader for loading potentially unsafe class : com.bjuvefors.tools.impl.model.Item
+2017-09-22 18:48:20,483 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister : Static SQL for entity: com.bjuvefors.tools.impl.model.Item
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Version select: select id from item where id =?
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Snapshot select: select item_.id, item_.alcohol as alcohol2_0_, item_.country as country3_0_, item_.date as date4_0_, item_.name as name5_0_, item_.number as number6_0_, item_.object as object7_0_, item_.origin as origin8_0_, item_.price as price9_0_, item_.producer as produce10_0_, item_.reduction as reducti11_0_, item_.sub_type as sub_typ12_0_, item_.type as type13_0_, item_.volume as volume14_0_ from item item_ where item_.id=?
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Insert 0: insert into item (alcohol, country, date, name, number, object, origin, price, producer, reduction, sub_type, type, volume, id) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Update 0: update item set alcohol=?, country=?, date=?, name=?, number=?, object=?, origin=?, price=?, producer=?, reduction=?, sub_type=?, type=?, volume=? where id=?
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Delete 0: delete from item where id=?
+2017-09-22 18:48:20,484 DEBUG [main] org.hibernate.persister.entity.AbstractEntityPersister :  Identity insert: insert into item (alcohol, country, date, name, number, object, origin, price, producer, reduction, sub_type, type, volume) values (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2017-09-22 18:48:20,523 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@706ceca6]
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,526 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,527 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,552 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,556 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,558 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [NONE]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3fbe503c]
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,559 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [READ]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@15d0d6c9]
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,560 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [UPGRADE]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7741d346]
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,561 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [UPGRADE_NOWAIT]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4130a648]
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,562 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [UPGRADE_SKIPLOCKED]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@18dd5ed3]
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,563 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [FORCE]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,564 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@24043ec5]
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,565 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [PESSIMISTIC_READ]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? lock in share mode
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4c6a4ffd]
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,566 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [PESSIMISTIC_WRITE]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@3f1a9a53]
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,567 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [PESSIMISTIC_FORCE_INCREMENT]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=? for update
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2287395]
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,568 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,569 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [OPTIMISTIC]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl : Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@38f981b6]
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : alcohol
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : country
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : date
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : name
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : number
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : object
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : origin
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : price
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : producer
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : reduction
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : subType
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : type
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.persister.walking.spi.MetamodelGraphWalker : Visiting attribute path : volume
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy : Building LoadPlan...
+2017-09-22 18:48:20,570 DEBUG [main] org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor : processing queryspace <gen:0>
+2017-09-22 18:48:20,571 DEBUG [main] org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter : LoadPlan(entity=com.bjuvefors.tools.impl.model.Item)
+    - Returns
+       - EntityReturnImpl(entity=com.bjuvefors.tools.impl.model.Item, querySpaceUid=<gen:0>, path=com.bjuvefors.tools.impl.model.Item)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=com.bjuvefors.tools.impl.model.Item)
+          - SQL table alias mapping - item0_
+          - alias suffix - 0_
+          - suffixed key columns - {id1_0_0_}
+
+2017-09-22 18:48:20,571 DEBUG [main] org.hibernate.loader.entity.plan.EntityLoader : Static select for entity com.bjuvefors.tools.impl.model.Item [OPTIMISTIC_FORCE_INCREMENT]: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,589 DEBUG [main] org.hibernate.loader.Loader : Static select for action ACTION_MERGE on entity com.bjuvefors.tools.impl.model.Item: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,589 DEBUG [main] org.hibernate.loader.Loader : Static select for action ACTION_REFRESH on entity com.bjuvefors.tools.impl.model.Item: select item0_.id as id1_0_0_, item0_.alcohol as alcohol2_0_0_, item0_.country as country3_0_0_, item0_.date as date4_0_0_, item0_.name as name5_0_0_, item0_.number as number6_0_0_, item0_.object as object7_0_0_, item0_.origin as origin8_0_0_, item0_.price as price9_0_0_, item0_.producer as produce10_0_0_, item0_.reduction as reducti11_0_0_, item0_.sub_type as sub_typ12_0_0_, item0_.type as type13_0_0_, item0_.volume as volume14_0_0_ from item item0_ where item0_.id=?
+2017-09-22 18:48:20,589 DEBUG [main] org.hibernate.internal.SessionFactoryImpl : Instantiated session factory
+2017-09-22 18:48:20,593 INFO  [main] org.hibernate.tool.hbm2ddl.SchemaUpdate : HHH000228: Running hbm2ddl schema update
+2017-09-22 18:48:20,924 DEBUG [main] org.hibernate.mapping.Table : No alter strings for table : item
+2017-09-22 18:48:20,937 DEBUG [main] org.hibernate.internal.NamedQueryRepository : Checking 0 named HQL queries
+2017-09-22 18:48:20,937 DEBUG [main] org.hibernate.internal.NamedQueryRepository : Checking 0 named SQL queries
+2017-09-22 18:48:20,939 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@262a1fad
+2017-09-22 18:48:20,940 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Registering SessionFactory: 45b5d0c9-80d3-4778-ade9-d8b969149885 (<unnamed>)
+2017-09-22 18:48:20,940 DEBUG [main] org.hibernate.internal.SessionFactoryRegistry : Not binding SessionFactory to JNDI, no JNDI name configured
+2017-09-22 18:48:20,946 DEBUG [main] org.hibernate.jpa.internal.schemagen.JpaSchemaGenerator : No actions specified; doing nothing
+2017-09-22 18:48:20,978 DEBUG [main] org.hibernate.jpa.internal.EntityManagerFactoryRegistry : Initializing EntityManagerFactoryRegistry : org.hibernate.jpa.internal.EntityManagerFactoryRegistry@5d05f453
+2017-09-22 18:48:20,978 DEBUG [main] org.hibernate.jpa.internal.EntityManagerFactoryRegistry : Registering EntityManagerFactory: default 
+2017-09-22 18:48:20,978 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2017-09-22 18:48:21,104 DEBUG [main] org.hibernate.stat.internal.StatisticsInitiator : Statistics initialized [enabled=false]
+2017-09-22 18:48:22,458 INFO  [main] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Registering beans for JMX exposure on startup
+2017-09-22 18:48:22,466 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@489110c2: startup date [Fri Sep 22 18:48:22 CEST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a
+2017-09-22 18:48:22,499 INFO  [main] org.springframework.beans.factory.support.DefaultListableBeanFactory : Overriding bean definition for bean 'handlerExceptionResolver' with a different definition: replacing [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration; factoryMethodName=handlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.web.servlet.config.annotation.DelegatingWebMvcConfiguration] with [Root bean: class [null]; scope=; abstract=false; lazyInit=false; autowireMode=3; dependencyCheck=0; autowireCandidate=true; primary=false; factoryBeanName=endpointWebMvcChildContextConfiguration; factoryMethodName=compositeHandlerExceptionResolver; initMethodName=null; destroyMethodName=(inferred); defined in org.springframework.boot.actuate.autoconfigure.EndpointWebMvcChildContextConfiguration]
+2017-09-22 18:48:22,570 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3333 (http)
+2017-09-22 18:48:22,571 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-09-22 18:48:22,572 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-22 18:48:22,588 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-09-22 18:48:22,593 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-22 18:48:22,622 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:22,622 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:22,623 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:22,624 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:22,624 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:48:22,624 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:48:22,624 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:48:22,625 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:48:22,625 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:48:22,625 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:48:22,626 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:48:22,626 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:48:22,769 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2017-09-22 18:48:22,771 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,774 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,779 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+2017-09-22 18:48:22,781 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2017-09-22 18:48:22,782 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,785 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+2017-09-22 18:48:22,787 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,789 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2017-09-22 18:48:22,789 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,793 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,801 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+2017-09-22 18:48:22,801 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+2017-09-22 18:48:22,801 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,803 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,805 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,806 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2017-09-22 18:48:22,807 INFO  [main] org.springframework.boot.actuate.endpoint.mvc.EndpointHandlerMapping : Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:48:22,884 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:48:22,885 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:48:22,885 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:48:22,885 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:48:23,109 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3333 (http)
+2017-09-22 18:48:23,124 INFO  [main] org.springframework.context.support.DefaultLifecycleProcessor : Starting beans in phase 0
+2017-09-22 18:48:23,347 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat started on port(s): 3000 (http)
+2017-09-22 18:48:23,360 INFO  [main] com.bjuvefors.tools.impl.SpringBootMain : Started SpringBootMain in 8.828 seconds (JVM running for 9.576)
+2017-09-22 18:48:40,779 INFO  [http-nio-3333-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat-1].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-22 18:48:46,945 INFO  [http-nio-3000-exec-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-09-22 18:48:46,974 DEBUG [http-nio-3000-exec-1] org.hibernate.engine.transaction.internal.TransactionImpl : begin
+2017-09-22 18:48:46,990 DEBUG [http-nio-3000-exec-1] org.hibernate.jpa.criteria.CriteriaQueryImpl : Rendered criteria query -> select generatedAlias0 from Item as generatedAlias0
+2017-09-22 18:48:47,000 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : QueryTranslatorFactory : org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory@50d75713
+2017-09-22 18:48:47,001 INFO  [http-nio-3000-exec-1] org.hibernate.hql.internal.QueryTranslatorFactoryInitiator : HHH000397: Using ASTQueryTranslatorFactory
+2017-09-22 18:48:47,030 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.QueryTranslatorImpl : parse() - HQL: select generatedAlias0 from com.bjuvefors.tools.impl.model.Item as generatedAlias0
+2017-09-22 18:48:47,039 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.QueryTranslatorImpl : --- HQL AST ---
+ \-[QUERY] Node: 'query'
+    \-[SELECT_FROM] Node: 'SELECT_FROM'
+       +-[FROM] Node: 'from'
+       |  \-[RANGE] Node: 'RANGE'
+       |     +-[DOT] Node: '.'
+       |     |  +-[DOT] Node: '.'
+       |     |  |  +-[DOT] Node: '.'
+       |     |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  +-[DOT] Node: '.'
+       |     |  |  |  |  |  +-[IDENT] Node: 'com'
+       |     |  |  |  |  |  \-[IDENT] Node: 'bjuvefors'
+       |     |  |  |  |  \-[IDENT] Node: 'tools'
+       |     |  |  |  \-[IDENT] Node: 'impl'
+       |     |  |  \-[IDENT] Node: 'model'
+       |     |  \-[IDENT] Node: 'Item'
+       |     \-[ALIAS] Node: 'generatedAlias0'
+       \-[SELECT] Node: 'select'
+          \-[IDENT] Node: 'generatedAlias0'
+
+2017-09-22 18:48:47,039 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.ErrorCounter : throwQueryException() : no errors
+2017-09-22 18:48:47,061 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.antlr.HqlSqlBaseWalker : select << begin [level=1, statement=select]
+2017-09-22 18:48:47,074 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.tree.FromElement : FromClause{level=1} : com.bjuvefors.tools.impl.model.Item (generatedAlias0) -> item0_
+2017-09-22 18:48:47,075 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.tree.FromReferenceNode : Resolved : generatedAlias0 -> item0_.id
+2017-09-22 18:48:47,077 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.antlr.HqlSqlBaseWalker : select : finishing up [level=1, statement=select]
+2017-09-22 18:48:47,077 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.HqlSqlWalker : processQuery() :  ( SELECT ( {select clause} item0_.id ) ( FromClause{level=1} item item0_ ) )
+2017-09-22 18:48:47,084 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.util.JoinProcessor : Using FROM fragment [item item0_]
+2017-09-22 18:48:47,084 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.antlr.HqlSqlBaseWalker : select >> end [level=1, statement=select]
+2017-09-22 18:48:47,084 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.QueryTranslatorImpl : --- SQL AST ---
+ \-[SELECT] QueryNode: 'SELECT'  querySpaces (item)
+    +-[SELECT_CLAUSE] SelectClause: '{select clause}'
+    |  +-[ALIAS_REF] IdentNode: 'item0_.id as id1_0_' {alias=generatedAlias0, className=com.bjuvefors.tools.impl.model.Item, tableAlias=item0_}
+    |  \-[SQL_TOKEN] SqlFragment: 'item0_.alcohol as alcohol2_0_, item0_.country as country3_0_, item0_.date as date4_0_, item0_.name as name5_0_, item0_.number as number6_0_, item0_.object as object7_0_, item0_.origin as origin8_0_, item0_.price as price9_0_, item0_.producer as produce10_0_, item0_.reduction as reducti11_0_, item0_.sub_type as sub_typ12_0_, item0_.type as type13_0_, item0_.volume as volume14_0_'
+    \-[FROM] FromClause: 'from' FromClause{level=1, fromElementCounter=1, fromElements=1, fromElementByClassAlias=[generatedAlias0], fromElementByTableAlias=[item0_], fromElementsByPath=[], collectionJoinFromElementsByPath=[], impliedElements=[]}
+       \-[FROM_FRAGMENT] FromElement: 'item item0_' FromElement{explicit,not a collection join,not a fetch join,fetch non-lazy properties,classAlias=generatedAlias0,role=null,tableName=item,tableAlias=item0_,origin=null,columns={,className=com.bjuvefors.tools.impl.model.Item}}
+
+2017-09-22 18:48:47,084 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.ErrorCounter : throwQueryException() : no errors
+2017-09-22 18:48:47,091 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.QueryTranslatorImpl : HQL: select generatedAlias0 from com.bjuvefors.tools.impl.model.Item as generatedAlias0
+2017-09-22 18:48:47,091 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.QueryTranslatorImpl : SQL: select item0_.id as id1_0_, item0_.alcohol as alcohol2_0_, item0_.country as country3_0_, item0_.date as date4_0_, item0_.name as name5_0_, item0_.number as number6_0_, item0_.object as object7_0_, item0_.origin as origin8_0_, item0_.price as price9_0_, item0_.producer as produce10_0_, item0_.reduction as reducti11_0_, item0_.sub_type as sub_typ12_0_, item0_.type as type13_0_, item0_.volume as volume14_0_ from item item0_
+2017-09-22 18:48:47,091 DEBUG [http-nio-3000-exec-1] org.hibernate.hql.internal.ast.ErrorCounter : throwQueryException() : no errors
+2017-09-22 18:48:47,108 DEBUG [http-nio-3000-exec-1] org.hibernate.SQL : select item0_.id as id1_0_, item0_.alcohol as alcohol2_0_, item0_.country as country3_0_, item0_.date as date4_0_, item0_.name as name5_0_, item0_.number as number6_0_, item0_.object as object7_0_, item0_.origin as origin8_0_, item0_.price as price9_0_, item0_.producer as produce10_0_, item0_.reduction as reducti11_0_, item0_.sub_type as sub_typ12_0_, item0_.type as type13_0_, item0_.volume as volume14_0_ from item item0_
+2017-09-22 18:48:47,135 DEBUG [http-nio-3000-exec-1] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2017-09-22 18:51:28,657 DEBUG [http-nio-3000-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : begin
+2017-09-22 18:51:28,660 DEBUG [http-nio-3000-exec-4] org.hibernate.jpa.criteria.CriteriaQueryImpl : Rendered criteria query -> select generatedAlias0 from Item as generatedAlias0
+2017-09-22 18:51:28,660 DEBUG [http-nio-3000-exec-4] org.hibernate.SQL : select item0_.id as id1_0_, item0_.alcohol as alcohol2_0_, item0_.country as country3_0_, item0_.date as date4_0_, item0_.name as name5_0_, item0_.number as number6_0_, item0_.object as object7_0_, item0_.origin as origin8_0_, item0_.price as price9_0_, item0_.producer as produce10_0_, item0_.reduction as reducti11_0_, item0_.sub_type as sub_typ12_0_, item0_.type as type13_0_, item0_.volume as volume14_0_ from item item0_
+2017-09-22 18:51:28,665 DEBUG [http-nio-3000-exec-4] org.hibernate.engine.transaction.internal.TransactionImpl : committing
+2017-09-22 18:54:06,695 INFO  [Thread-5] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a: startup date [Fri Sep 22 18:48:15 CEST 2017]; root of context hierarchy
+2017-09-22 18:54:06,696 INFO  [Thread-5] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Closing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@489110c2: startup date [Fri Sep 22 18:48:22 CEST 2017]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a
+2017-09-22 18:54:06,717 INFO  [Thread-5] org.springframework.context.support.DefaultLifecycleProcessor : Stopping beans in phase 0
+2017-09-22 18:54:06,719 INFO  [Thread-5] org.springframework.jmx.export.annotation.AnnotationMBeanExporter : Unregistering JMX-exposed beans on shutdown
+2017-09-22 18:54:06,719 INFO  [Thread-5] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2017-09-22 18:54:06,719 DEBUG [Thread-5] org.hibernate.internal.SessionFactoryImpl : HHH000031: Closing
+2017-09-22 18:54:06,720 DEBUG [Thread-5] org.hibernate.service.internal.AbstractServiceRegistryImpl : Implicitly destroying ServiceRegistry on de-registration of all child ServiceRegistries
+2017-09-22 18:54:06,720 DEBUG [Thread-5] org.hibernate.boot.registry.internal.BootstrapServiceRegistryImpl : Implicitly destroying Boot-strap registry on de-registration of all child ServiceRegistries
+2017-09-22 18:54:06,720 DEBUG [Thread-5] org.hibernate.jpa.internal.EntityManagerFactoryRegistry : Remove: name=default
+2017-09-22 18:54:09,590 INFO  [main] com.bjuvefors.tools.impl.SpringBootMain : Starting SpringBootMain on Andreass-MBP.lan with PID 5849 (/Users/andreasbjuvefors/IdeaProjects/springbootTest/target/classes started by andreasbjuvefors in /Users/andreasbjuvefors/IdeaProjects/springbootTest)
+2017-09-22 18:54:09,594 DEBUG [main] com.bjuvefors.tools.impl.SpringBootMain : Running with Spring Boot v1.5.6.RELEASE, Spring v4.3.10.RELEASE
+2017-09-22 18:54:09,594 INFO  [main] com.bjuvefors.tools.impl.SpringBootMain : No active profile set, falling back to default profiles: default
+2017-09-22 18:54:09,744 INFO  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6ca8564a: startup date [Fri Sep 22 18:54:09 CEST 2017]; root of context hierarchy
+2017-09-22 18:54:10,143 DEBUG [background-preinit] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:54:10,148 DEBUG [background-preinit] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:54:11,401 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:54:11,401 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:54:11,423 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:54:11,423 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:54:11,426 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:54:11,427 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:54:11,428 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:54:11,430 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:54:11,431 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:54:11,431 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:54:11,431 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:54:11,432 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:54:11,798 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:54:11,799 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:54:11,799 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Found javax.persistence.Persistence on classpath containing 'getPersistenceUtil'. Assuming JPA 2 environment. Trying to instantiate JPA aware TraversableResolver
+2017-09-22 18:54:11,799 DEBUG [main] org.hibernate.validator.internal.engine.resolver.DefaultTraversableResolver : Instantiated JPA aware TraversableResolver of type org.hibernate.validator.internal.engine.resolver.JPATraversableResolver.
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.engine.ConfigurationImpl : Setting custom ParameterNameProvider of type com.sun.proxy.$Proxy50
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : Trying to load META-INF/validation.xml for XML based Validator configuration.
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via user class loader
+2017-09-22 18:54:11,800 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via TCCL
+2017-09-22 18:54:11,801 DEBUG [main] org.hibernate.validator.internal.xml.ResourceLoaderHelper : Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+2017-09-22 18:54:11,801 DEBUG [main] org.hibernate.validator.internal.xml.ValidationXmlParser : No META-INF/validation.xml found. Using annotation based configuration only.
+2017-09-22 18:54:12,198 INFO  [main] org.springframework.boot.context.embedded.tomcat.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 3000 (http)
+2017-09-22 18:54:12,237 INFO  [main] org.apache.catalina.core.StandardService : Starting service [Tomcat]
+2017-09-22 18:54:12,239 INFO  [main] org.apache.catalina.core.StandardEngine : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-09-22 18:54:12,367 INFO  [localhost-startStop-1] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] : Initializing Spring embedded WebApplicationContext
+2017-09-22 18:54:12,660 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.ServletRegistrationBean : Mapping servlet: 'dispatcherServlet' to [/]
+2017-09-22 18:54:12,664 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'metricsFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'requestContextFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'webRequestLoggingFilter' to: [/*]
+2017-09-22 18:54:12,665 INFO  [localhost-startStop-1] org.springframework.boot.web.servlet.FilterRegistrationBean : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2017-09-22 18:54:13,307 ERROR [main] org.apache.tomcat.jdbc.pool.ConnectionPool : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2198)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2229)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e.CGLIB$jpaVendorAdapter$8(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e$$FastClassBySpringCGLIB$$554f5e62.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bjuvefors.tools.impl.SpringBootMain.main(SpringBootMain.java:12)
+2017-09-22 18:54:13,312 WARN  [main] org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup : Unable to determine jdbc url from datasource
+org.springframework.jdbc.support.MetaDataAccessException: Could not get Connection for extracting meta data; nested exception is org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:339)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:366)
+	at org.springframework.boot.autoconfigure.orm.jpa.DatabaseLookup.getDatabase(DatabaseLookup.java:72)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaProperties.determineDatabase(JpaProperties.java:139)
+	at org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration.jpaVendorAdapter(JpaBaseConfiguration.java:105)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e.CGLIB$jpaVendorAdapter$8(<generated>)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e$$FastClassBySpringCGLIB$$554f5e62.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at org.springframework.context.annotation.ConfigurationClassEnhancer$BeanMethodInterceptor.intercept(ConfigurationClassEnhancer.java:358)
+	at org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration$$EnhancerBySpringCGLIB$$3b72094e.jpaVendorAdapter(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:162)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:588)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:208)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1138)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1066)
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:835)
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:741)
+	at org.springframework.beans.factory.support.ConstructorResolver.instantiateUsingFactoryMethod(ConstructorResolver.java:467)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateUsingFactoryMethod(AbstractAutowireCapableBeanFactory.java:1173)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1067)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:513)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bjuvefors.tools.impl.SpringBootMain.main(SpringBootMain.java:12)
+Caused by: org.springframework.jdbc.CannotGetJdbcConnectionException: Could not get JDBC Connection; nested exception is java.sql.SQLException: Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:80)
+	at org.springframework.jdbc.support.JdbcUtils.extractDatabaseMetaData(JdbcUtils.java:326)
+	... 61 common frames omitted
+Caused by: java.sql.SQLException: Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2198)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2229)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.springframework.jdbc.datasource.DataSourceUtils.doGetConnection(DataSourceUtils.java:111)
+	at org.springframework.jdbc.datasource.DataSourceUtils.getConnection(DataSourceUtils.java:77)
+	... 62 common frames omitted
+2017-09-22 18:54:13,356 INFO  [main] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean : Building JPA container EntityManagerFactory for persistence unit 'default'
+2017-09-22 18:54:13,381 DEBUG [main] org.hibernate.jpa.internal.util.LogHelper : PersistenceUnitInfo [
+	name: default
+	persistence provider classname: null
+	classloader: sun.misc.Launcher$AppClassLoader@18b4aac2
+	excludeUnlistedClasses: true
+	JTA datasource: null
+	Non JTA datasource: org.apache.tomcat.jdbc.pool.DataSource@3a5c2626{ConnectionPool[defaultAutoCommit=null; defaultReadOnly=null; defaultTransactionIsolation=-1; defaultCatalog=null; driverClassName=com.mysql.jdbc.Driver; maxActive=100; maxIdle=100; minIdle=10; initialSize=10; maxWait=30000; testOnBorrow=true; testOnReturn=false; timeBetweenEvictionRunsMillis=5000; numTestsPerEvictionRun=0; minEvictableIdleTimeMillis=60000; testWhileIdle=false; testOnConnect=false; password=********; url=jdbc:mysql://192.168.1.101:3306/systemet; username=testuser; validationQuery=SELECT 1; validationQueryTimeout=-1; validatorClassName=null; validationInterval=3000; accessToUnderlyingConnectionAllowed=true; removeAbandoned=false; removeAbandonedTimeout=60; logAbandoned=false; connectionProperties=null; initSQL=null; jdbcInterceptors=null; jmxEnabled=true; fairQueue=true; useEquals=true; abandonWhenPercentageFull=0; maxAge=0; useLock=false; dataSource=null; dataSourceJNDI=null; suspectTimeout=0; alternateUsernameAllowed=false; commitOnReturn=false; rollbackOnReturn=false; useDisposableConnectionFacade=true; logValidationErrors=false; propagateInterruptState=false; ignoreExceptionOnPreLoad=false; useStatementFacade=true; }
+	Transaction type: RESOURCE_LOCAL
+	PU root URL: file:/Users/andreasbjuvefors/IdeaProjects/springbootTest/target/classes/
+	Shared Cache Mode: UNSPECIFIED
+	Validation Mode: AUTO
+	Jar files URLs []
+	Managed classes names [
+		com.bjuvefors.tools.impl.model.Item]
+	Mapping files names []
+	Properties []
+2017-09-22 18:54:13,407 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+2017-09-22 18:54:13,408 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+2017-09-22 18:54:13,411 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+2017-09-22 18:54:13,411 DEBUG [main] org.hibernate.integrator.internal.IntegratorServiceImpl : Adding Integrator [org.hibernate.jpa.event.spi.JpaIntegrator].
+2017-09-22 18:54:13,480 INFO  [main] org.hibernate.Version : HHH000412: Hibernate Core {5.0.12.Final}
+2017-09-22 18:54:13,481 INFO  [main] org.hibernate.cfg.Environment : HHH000206: hibernate.properties not found
+2017-09-22 18:54:13,484 INFO  [main] org.hibernate.cfg.Environment : HHH000021: Bytecode provider name : javassist
+2017-09-22 18:54:13,521 DEBUG [main] org.hibernate.service.spi.ServiceBinding : Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+2017-09-22 18:54:13,587 DEBUG [main] org.hibernate.cache.internal.RegionFactoryInitiator : Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+2017-09-22 18:54:13,624 INFO  [main] org.hibernate.annotations.common.Version : HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2017-09-22 18:54:13,882 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@1b956cfa
+2017-09-22 18:54:13,883 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration boolean -> org.hibernate.type.BooleanType@1b956cfa
+2017-09-22 18:54:13,883 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@1b956cfa
+2017-09-22 18:54:13,884 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@ccf91df
+2017-09-22 18:54:13,885 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration true_false -> org.hibernate.type.TrueFalseType@7e53339
+2017-09-22 18:54:13,885 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration yes_no -> org.hibernate.type.YesNoType@12eedfee
+2017-09-22 18:54:13,886 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@68f0f72c
+2017-09-22 18:54:13,887 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte -> org.hibernate.type.ByteType@68f0f72c
+2017-09-22 18:54:13,887 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@68f0f72c
+2017-09-22 18:54:13,888 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration character -> org.hibernate.type.CharacterType@12d5c30e
+2017-09-22 18:54:13,888 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char -> org.hibernate.type.CharacterType@12d5c30e
+2017-09-22 18:54:13,888 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@12d5c30e
+2017-09-22 18:54:13,889 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@3aa41da1
+2017-09-22 18:54:13,890 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration short -> org.hibernate.type.ShortType@3aa41da1
+2017-09-22 18:54:13,890 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3aa41da1
+2017-09-22 18:54:13,891 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration integer -> org.hibernate.type.IntegerType@1c26273d
+2017-09-22 18:54:13,891 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration int -> org.hibernate.type.IntegerType@1c26273d
+2017-09-22 18:54:13,891 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@1c26273d
+2017-09-22 18:54:13,892 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@268cbb86
+2017-09-22 18:54:13,893 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration long -> org.hibernate.type.LongType@268cbb86
+2017-09-22 18:54:13,893 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Long -> org.hibernate.type.LongType@268cbb86
+2017-09-22 18:54:13,894 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@3d0035d2
+2017-09-22 18:54:13,894 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration float -> org.hibernate.type.FloatType@3d0035d2
+2017-09-22 18:54:13,894 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Float -> org.hibernate.type.FloatType@3d0035d2
+2017-09-22 18:54:13,895 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@7afc4db9
+2017-09-22 18:54:13,896 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration double -> org.hibernate.type.DoubleType@7afc4db9
+2017-09-22 18:54:13,896 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@7afc4db9
+2017-09-22 18:54:13,897 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@68868328
+2017-09-22 18:54:13,897 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@68868328
+2017-09-22 18:54:13,898 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7f5538a1
+2017-09-22 18:54:13,898 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7f5538a1
+2017-09-22 18:54:13,899 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration string -> org.hibernate.type.StringType@7c8c70d6
+2017-09-22 18:54:13,899 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.String -> org.hibernate.type.StringType@7c8c70d6
+2017-09-22 18:54:13,900 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nstring -> org.hibernate.type.StringNVarcharType@53311681
+2017-09-22 18:54:13,900 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@574a89e2
+2017-09-22 18:54:13,901 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration url -> org.hibernate.type.UrlType@58434b19
+2017-09-22 18:54:13,901 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.net.URL -> org.hibernate.type.UrlType@58434b19
+2017-09-22 18:54:13,903 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration date -> org.hibernate.type.DateType@6e4c0d8c
+2017-09-22 18:54:13,903 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Date -> org.hibernate.type.DateType@6e4c0d8c
+2017-09-22 18:54:13,904 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration time -> org.hibernate.type.TimeType@26350ea2
+2017-09-22 18:54:13,904 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Time -> org.hibernate.type.TimeType@26350ea2
+2017-09-22 18:54:13,906 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timestamp -> org.hibernate.type.TimestampType@17273273
+2017-09-22 18:54:13,906 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@17273273
+2017-09-22 18:54:13,906 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Date -> org.hibernate.type.TimestampType@17273273
+2017-09-22 18:54:13,907 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@43f1bb92
+2017-09-22 18:54:13,908 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar -> org.hibernate.type.CalendarType@b1534d3
+2017-09-22 18:54:13,908 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@b1534d3
+2017-09-22 18:54:13,908 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@b1534d3
+2017-09-22 18:54:13,909 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@6a818392
+2017-09-22 18:54:13,910 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration locale -> org.hibernate.type.LocaleType@3743539f
+2017-09-22 18:54:13,910 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3743539f
+2017-09-22 18:54:13,911 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration currency -> org.hibernate.type.CurrencyType@2cc75074
+2017-09-22 18:54:13,911 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@2cc75074
+2017-09-22 18:54:13,912 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration timezone -> org.hibernate.type.TimeZoneType@75181b50
+2017-09-22 18:54:13,912 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@75181b50
+2017-09-22 18:54:13,913 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration class -> org.hibernate.type.ClassType@1645f294
+2017-09-22 18:54:13,913 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Class -> org.hibernate.type.ClassType@1645f294
+2017-09-22 18:54:13,914 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@7fb66650
+2017-09-22 18:54:13,914 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@7fb66650
+2017-09-22 18:54:13,915 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@ae202c6
+2017-09-22 18:54:13,916 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration binary -> org.hibernate.type.BinaryType@7b4a0aef
+2017-09-22 18:54:13,916 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration byte[] -> org.hibernate.type.BinaryType@7b4a0aef
+2017-09-22 18:54:13,916 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [B -> org.hibernate.type.BinaryType@7b4a0aef
+2017-09-22 18:54:13,918 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@31dfc6f5
+2017-09-22 18:54:13,918 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@31dfc6f5
+2017-09-22 18:54:13,918 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@31dfc6f5
+2017-09-22 18:54:13,920 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration row_version -> org.hibernate.type.RowVersionType@7e5843db
+2017-09-22 18:54:13,921 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration image -> org.hibernate.type.ImageType@340a8894
+2017-09-22 18:54:13,922 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration characters -> org.hibernate.type.CharArrayType@56cfe111
+2017-09-22 18:54:13,922 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration char[] -> org.hibernate.type.CharArrayType@56cfe111
+2017-09-22 18:54:13,922 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [C -> org.hibernate.type.CharArrayType@56cfe111
+2017-09-22 18:54:13,924 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@1947596f
+2017-09-22 18:54:13,924 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@1947596f
+2017-09-22 18:54:13,924 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@1947596f
+2017-09-22 18:54:13,925 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration text -> org.hibernate.type.TextType@43d9f1a2
+2017-09-22 18:54:13,925 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration ntext -> org.hibernate.type.NTextType@11900483
+2017-09-22 18:54:13,929 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration blob -> org.hibernate.type.BlobType@1f53481b
+2017-09-22 18:54:13,930 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1f53481b
+2017-09-22 18:54:13,930 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@6f70a21b
+2017-09-22 18:54:13,933 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration clob -> org.hibernate.type.ClobType@6192a5d5
+2017-09-22 18:54:13,933 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@6192a5d5
+2017-09-22 18:54:13,936 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration nclob -> org.hibernate.type.NClobType@4c2af006
+2017-09-22 18:54:13,936 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@4c2af006
+2017-09-22 18:54:13,937 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@5578be42
+2017-09-22 18:54:13,937 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@53c6f96d
+2017-09-22 18:54:13,938 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration serializable -> org.hibernate.type.SerializableType@5ad5be4a
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration object -> org.hibernate.type.ObjectType@4a2929a4
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@4a2929a4
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4012d5bc
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@4375b013
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@1cf0cacc
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4f5b08d
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@529c2a9a
+2017-09-22 18:54:13,941 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3c87fdf2
+2017-09-22 18:54:13,942 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@26bbe604
+2017-09-22 18:54:13,942 DEBUG [main] org.hibernate.type.BasicTypeRegistry : Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@fe34b86
+2017-09-22 18:54:13,967 ERROR [main] org.apache.tomcat.jdbc.pool.ConnectionPool : Unable to create initial connections of pool.
+java.sql.SQLException: Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:964)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:873)
+	at com.mysql.jdbc.MysqlIO.proceedHandshakeWithPluggableAuthentication(MysqlIO.java:1710)
+	at com.mysql.jdbc.MysqlIO.doHandshake(MysqlIO.java:1226)
+	at com.mysql.jdbc.ConnectionImpl.coreConnect(ConnectionImpl.java:2198)
+	at com.mysql.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:2229)
+	at com.mysql.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:2024)
+	at com.mysql.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:779)
+	at com.mysql.jdbc.JDBC4Connection.<init>(JDBC4Connection.java:47)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:389)
+	at com.mysql.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:330)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connectUsingDriver(PooledConnection.java:310)
+	at org.apache.tomcat.jdbc.pool.PooledConnection.connect(PooledConnection.java:203)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.createConnection(ConnectionPool.java:735)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.borrowConnection(ConnectionPool.java:667)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.init(ConnectionPool.java:482)
+	at org.apache.tomcat.jdbc.pool.ConnectionPool.<init>(ConnectionPool.java:154)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.pCreatePool(DataSourceProxy.java:118)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.createPool(DataSourceProxy.java:107)
+	at org.apache.tomcat.jdbc.pool.DataSourceProxy.getConnection(DataSourceProxy.java:131)
+	at org.hibernate.engine.jdbc.connections.internal.DatasourceConnectionProviderImpl.getConnection(DatasourceConnectionProviderImpl.java:122)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess.obtainConnection(JdbcEnvironmentInitiator.java:180)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:68)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bjuvefors.tools.impl.SpringBootMain.main(SpringBootMain.java:12)
+2017-09-22 18:54:13,968 WARN  [main] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator : HHH000342: Could not obtain connection to query metadata : Access denied for user 'testuser'@'Andreass-MBP.lan' (using password: YES)
+2017-09-22 18:54:13,971 WARN  [main] org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+2017-09-22 18:54:13,973 INFO  [main] org.apache.catalina.core.StandardService : Stopping service [Tomcat]
+2017-09-22 18:54:14,011 INFO  [main] org.springframework.boot.autoconfigure.logging.AutoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report re-run your application with 'debug' enabled.
+2017-09-22 18:54:14,021 ERROR [main] org.springframework.boot.SpringApplication : Application startup failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaAutoConfiguration.class]: Invocation of init method failed; nested exception is org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1628)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:555)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:483)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197)
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1078)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:857)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:543)
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:693)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:360)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:303)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1118)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1107)
+	at com.bjuvefors.tools.impl.SpringBootMain.main(SpringBootMain.java:12)
+Caused by: org.hibernate.service.spi.ServiceException: Unable to create requested service [org.hibernate.engine.jdbc.env.spi.JdbcEnvironment]
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:264)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:228)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.engine.jdbc.internal.JdbcServicesImpl.configure(JdbcServicesImpl.java:51)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.configureService(StandardServiceRegistryImpl.java:94)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.initializeService(AbstractServiceRegistryImpl.java:237)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.getService(AbstractServiceRegistryImpl.java:207)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.handleTypes(MetadataBuildingProcess.java:352)
+	at org.hibernate.boot.model.process.spi.MetadataBuildingProcess.complete(MetadataBuildingProcess.java:111)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.metadata(EntityManagerFactoryBuilderImpl.java:847)
+	at org.hibernate.jpa.boot.internal.EntityManagerFactoryBuilderImpl.build(EntityManagerFactoryBuilderImpl.java:874)
+	at org.springframework.orm.jpa.vendor.SpringHibernateJpaPersistenceProvider.createContainerEntityManagerFactory(SpringHibernateJpaPersistenceProvider.java:60)
+	at org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory(LocalContainerEntityManagerFactoryBean.java:353)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.buildNativeEntityManagerFactory(AbstractEntityManagerFactoryBean.java:370)
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.afterPropertiesSet(AbstractEntityManagerFactoryBean.java:359)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1687)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1624)
+	... 16 common frames omitted
+Caused by: org.hibernate.HibernateException: Access to DialectResolutionInfo cannot be null when 'hibernate.dialect' not set
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.determineDialect(DialectFactoryImpl.java:100)
+	at org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.buildDialect(DialectFactoryImpl.java:54)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:137)
+	at org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService(JdbcEnvironmentInitiator.java:35)
+	at org.hibernate.boot.registry.internal.StandardServiceRegistryImpl.initiateService(StandardServiceRegistryImpl.java:88)
+	at org.hibernate.service.internal.AbstractServiceRegistryImpl.createService(AbstractServiceRegistryImpl.java:254)
+	... 32 common frames omitted

@@ -1,0 +1,5 @@
+com/bjuvefors/tools/impl/systemet/SystemetController.class
+com/bjuvefors/tools/impl/model/Item.class
+com/bjuvefors/tools/impl/systemet/SystemetService.class
+com/bjuvefors/tools/impl/SpringBootMain.class
+com/bjuvefors/tools/impl/systemet/SystemetRepository.class
