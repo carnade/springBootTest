@@ -1,6 +1,6 @@
 package com.bjuvefors.tools.impl.systemet;
 
-import com.bjuvefors.tools.impl.model.Item;
+import com.bjuvefors.tools.impl.model.Reductions;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,17 +15,17 @@ public class SystemetService {
     @Autowired
     private SystemetRepository systemetRepository;
 
-    private List<Item> items = Arrays.asList(
-            new Item(2, 1234, 123, "name1", 12,1, "sdf","test", "asd", "adf", "adf", "adf", "adf", new Date()),
-            new Item(2,22, 223, "name2", 12, 1,"sdf","test", "asd", "adf", "adf", "adf", "adf", new Date())
+    private List<Reductions> reductions = Arrays.asList(
+            new Reductions(2, 1234, 123, "name1", 12,1, "sdf","test", "asd", "adf", "adf", "adf", "adf", new Date()),
+            new Reductions(2,22, 223, "name2", 12, 1,"sdf","test", "asd", "adf", "adf", "adf", "adf", new Date())
             );
 
-    public List<Item> getItems() {
-        List<Item> itemList = new ArrayList<>();
+    public List<Reductions> getReductions() {
+        List<Reductions> reductionsList = new ArrayList<>();
 
-        systemetRepository.findAll().forEach(itemList::add);
+        systemetRepository.findAll().forEach(reductionsList::add);
 
-        return itemList;
+        return reductionsList;
     }
 
 

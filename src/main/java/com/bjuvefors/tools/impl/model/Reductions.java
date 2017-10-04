@@ -8,7 +8,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-public class Item implements Serializable{
+public class Reductions implements Serializable{
 
     @Id
     @GeneratedValue
@@ -41,10 +41,10 @@ public class Item implements Serializable{
     @Column(name = "date")
     private Date date;
 
-    public Item() {
+    public Reductions() {
     }
 
-    public Item(Integer id, int number, int object, String name, int price, double reduction, String volume, String type, String subType, String alcohol, String origin, String country, String producer, Date date) {
+    public Reductions(Integer id, int number, int object, String name, int price, double reduction, String volume, String type, String subType, String alcohol, String origin, String country, String producer, Date date) {
         this.id = id;
         this.number = number;
         this.object = object;
