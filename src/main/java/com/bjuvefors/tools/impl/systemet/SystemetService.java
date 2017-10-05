@@ -2,6 +2,8 @@ package com.bjuvefors.tools.impl.systemet;
 
 import com.bjuvefors.tools.impl.model.Reductions;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
@@ -26,6 +28,11 @@ public class SystemetService {
         systemetRepository.findAll().forEach(reductionsList::add);
 
         return reductionsList;
+    }
+
+    public Page<Reductions> getReductionsPage(Pageable page) {
+
+        return systemetRepository.findAll(page);
     }
 
 
