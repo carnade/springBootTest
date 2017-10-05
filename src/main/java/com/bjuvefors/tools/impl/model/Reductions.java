@@ -156,4 +156,21 @@ public class Reductions implements Serializable{
     public void setDate(Date date) {
         this.date = date;
     }
+
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public double getReduction() {
+        return reduction;
+    }
+
+    public void setReduction(double reduction) {
+        this.reduction = reduction;
+    }
 }
